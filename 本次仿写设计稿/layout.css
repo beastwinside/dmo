@@ -1,0 +1,314 @@
+/*初始化  reset*/  
+body,button,dd,dl,dt,h1,h2,h3,h4,h5,h6,input,li,ol,p,td,ul{margin:0;padding:0}  
+body,button,input{font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif}  
+button,input{font-size:100%}  
+ol,ul{list-style:none}  
+a{text-decoration:none}  
+a:hover{text-decoration:underline}  
+fieldset,img{border:0;vertical-align:top;}  
+a,button{cursor:pointer;}  
+/*清除浮动*/  
+.clearfix:before,.clearfix:after {  
+	content:"";  
+	display:table;  
+}  
+.clearfix:after{clear:both;}  
+.clearfix{  
+	*zoom:1;/*IE/7/6*/  
+}  
+/*normalize.css，以上样式为*/
+
+#sitenav{
+	background-color: #FFFFFF;
+	width:100%;
+	height: 100px;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #dae9ec;
+	position: relative;
+}
+
+#header_center{
+	width:1000px;
+	height:100%;
+	left: 0;
+	right:0;
+	margin:auto;
+	position: absolute;
+	background-color: #FDFCF8;
+
+}
+
+
+#sitenav li{
+	display: inline-block;
+	border-left-style: solid;
+	margin: 10px;
+
+}
+
+#sitenav ul> li:first-child{
+	border-left-style: none;
+	color:black;
+
+}
+
+#sitenav ul> li{
+	text-indent: 10px;
+	border-color:black;
+	border-width: 1px;
+}
+
+#header_logo{
+	height:100%;
+	width:200px;
+	background-image: url(./source/logo.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+
+#bg_header_nav{
+	height:100%;
+	width:800px;
+	background-image: url(./source/bg_header_nav.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 10px;
+	left: 200px;
+	
+}
+
+#header_top_nav{
+	height:40%;
+	width:400px;
+	position: absolute;
+	top: 0px;
+	right: 0%;
+	text-align: right;
+	
+}
+
+#header_top_nav ul> li:first-child{
+	border-left-style: none;
+	color:#1CA8C1;
+}
+
+#header_middle_nav{
+	height:40%;
+	width:400px;
+	position: absolute;
+	top: 30%;
+	right: 0%;
+	text-align: right;
+	
+}
+
+#header_middle_nav ul> li:first-child{
+	border-left-style: none;
+}
+
+
+
+#header_down_nav{
+	height:40%;
+	width:1000px;
+	background-image: url(./source/bg_top1.jpg);
+	position: absolute;
+	bottom: 0px;
+	right: 0%;
+	
+}
+
+#header_down_nav ul{
+	width:70%;
+	height:80%;
+	position: absolute;
+	bottom: 0%;
+	right: 0;
+	color:#0F6C9B;
+	
+}
+
+
+#bg_img{
+	width:100%;
+	height:1000px;
+	background-position:top; 
+	background-image: url(./source/bg_body.jpg) ;
+	position: relative;
+	left:0:;
+	right:0;
+	margin:auto;
+}
+
+
+#bg_gradient{
+	position: relative;
+	width:100%;
+	height:300px;
+	background:-webkit-gradient(linear, 0 0, 0 bottom, from(#e7ebee), to(#29A8CE));  
+}
+
+
+#container{
+	width:1000px;
+	height:1300px;
+	background-color:#FFE2EF;
+	position: relative;
+	left:0:;
+	right:0;
+	margin:auto;
+}
+
+#slidshow{
+	height:250px;
+	width: 100%;
+	background-color: #E79704;
+
+	color:white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#server_center{
+	height:200px;
+	width: 100%;
+	background-color: #4CD405;
+	position: relative;
+
+}
+
+#flex_container{
+	height:50%;
+	width:100%;
+	
+	position: absolute;
+	bottom: 20%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background-color: green;
+
+
+}
+
+
+#flex_container div{
+	width: 20%;
+	height: 80%;
+	background-color: #FA9652;
+	border-radius: 10px;
+	margin:10px;
+	position: relative;
+
+}
+
+#main_area{
+	width:100%;
+	height: 1000px;
+	position: relative;
+	background-color: blue;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+
+}
+
+#left_area{
+	width:33%;
+	height: 100%;
+	background-color: #C3F8F1;
+}
+
+#middle_area{
+	position: relative;
+	width:33%;
+	height: 100%;
+	background-color: #C5BEF8;
+	color: red;
+}
+
+#right_area{
+
+	width:33%;
+	height: 100%;
+
+	background-color: #770ee6;
+}
+
+
+#lunbotu2{
+	width: 100%;
+	height: 200px;
+	background-color:#E79704;
+	font-size: 30px;
+	position: relative;
+
+}
+
+#xiala_antd{
+	width: 100%;
+	height: 400px;
+	
+	background-image: url(./source/xiala_antd.png);
+	position: relative;
+
+}
+
+
+#show_page{
+	position: relative;
+	width:100%;
+	height:80%;
+	background-color:white;
+	background-image: url(./source/show_page.png);
+}
+
+
+#right_page_area,#normal_img_link{
+		width: 100%;
+	height: 200px;
+	background-color:#F83053;
+	font-size: 30px;
+	position: relative;
+}
+
+#normal_img_link{
+	background-color: pink;
+}
+
+#right_lunbo{
+	width: 100%;
+	height: 300px;
+	background-color:#E79704;
+	font-size: 30px;
+	position: relative;
+}
+
+#fixed_right_nav{
+position: fixed;
+top: 100px;
+left: 50px;
+width: 200px;
+height: 600px;
+background-image: url(./source/erweima.png);
+z-index: 3;
+background-repeat: no-repeat;
+
+}
+
+footer{
+
+	width: 1000px;
+	height: 80%;
+	bottom: 10%;
+	background-color: #F7ED69;
+	left: 0;
+	right: 0;
+	margin:auto;
+	font-size: 35px;
+}

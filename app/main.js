@@ -6,7 +6,9 @@ import Header from './containers/Header';//网页头部组件
 import Fix_left_nav from './containers/Fix_left_nav';//网页左边导航栏组件
 import Maincontainer from './containers/maincontainer';//网页中间
 import Footer from './containers/footer';
-import { Button } from 'antd';
+
+
+
 
 
 import './styles/main.css';//使用require导入css文件

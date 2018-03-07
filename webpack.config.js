@@ -21,13 +21,22 @@ module.exports = {
     },
     module: {
         rules: [
-        {
+
+         {
             test: /(\.jsx|\.js)$/,
             use: {
-                loader: "babel-loader"
+                loader: "babel-loader",
+                options: {
+                    presets: [
+                        "env", "react"
+                    ],
+                    plugins: [['import', { libraryName: 'antd', style: 'css' }]]
+                }
+
             },
             exclude: /node_modules/
         },
+
        
         {
             test: /\.jpeg|\.jpg|\.png$/,
@@ -43,21 +52,40 @@ module.exports = {
             ]
         },
         
+
         {
-            test: /\.css$/,
-            use: [
+          test: /\.css$/,
+          exclude:/node_modules/, //非antd目录开启css modules 
+          use:[
             {
-                loader: "style-loader"
-            }, {
-                loader: "css-loader",
-                options: {
-                    modules: true
-                }
-            }, {
-                loader: "postcss-loader"
+              loader: 'style-loader'  
+            },
+            {
+              loader: 'css-loader',
+              options: {
+                importLoaders: 2,
+                modules: true, 
+                sourceMap: true,
+                localIdentName: '[local]___[hash:base64:5]'
+              } 
             }
-            ]
-        }
+          ]
+      },
+      {
+          test: /\.css$/,
+          include:/node_modules/, //antd目录
+          use:[
+            {
+              loader: 'style-loader'  
+            },
+            {
+              loader: 'css-loader'  
+            }
+          ]
+      }
+
+
+
         ]
     },
     plugins: [

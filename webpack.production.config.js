@@ -47,8 +47,10 @@ module.exports = {
             ]
         },
 
+
         {
             test: /\.css$/,
+             exclude:/node_modules/,
             use: ExtractTextPlugin.extract({
               fallback: "style-loader",
               use: [{
@@ -60,7 +62,21 @@ module.exports = {
                   loader: "postcss-loader"
               }],
           })
-        }
+        },
+
+    {
+          test: /\.css$/,
+          include:/node_modules/, //antd目录
+          use:[
+            {
+              loader: 'style-loader'  
+            },
+            {
+              loader: 'css-loader'  
+            }
+          ]
+      }
+
 
       
         ]

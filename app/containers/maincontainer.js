@@ -4,14 +4,16 @@ import { Button } from 'antd';
 
 
 
+
 class Maincontainer  extends Component{
 	render(){
 		return(
 			<div className={styles.bg_img}>
 			<div  className={styles.container} >
 
-			<div className={styles.slidshow} >	 轮播图控件1(框架里之前写过可复用组件，布局设计稿中不再单独写)
-				左边固定二维码栏先做简单实现，到时候可以添加平缓过渡动画
+			<div className={styles.slidshow} >
+		
+	<Button type="danger">Primary</Button>
 			</div>
 
 

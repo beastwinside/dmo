@@ -7,7 +7,7 @@ class Header extends Component{
     	<div className={styles.sitenav}>
 
 		<div className={styles.header_center}>
-			<div className="header_logo"></div>
+			<div className={styles.header_logo}></div>
 
 			<div className={styles.bg_header_nav}></div>
 

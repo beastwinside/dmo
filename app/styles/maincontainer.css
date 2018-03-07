@@ -1,0 +1,151 @@
+.bg_img{
+	width:100%;
+	height:1000px;
+	background-position:top; 
+	background-image: url(../source/bg_body.jpg) ;
+	position: relative;
+	left:0px;
+	right:0px;
+	margin:auto;
+}
+
+
+
+
+.container{
+	width:1000px;
+	height:1300px;
+	background-color:#FFE2EF;
+	position: relative;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+
+
+.slidshow{
+	height:250px;
+	width: 100%;
+	background-color: #E79704;
+
+	color:white;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.server_center{
+	height:200px;
+	width: 100%;
+	background-color: #4CD405;
+	position: relative;
+
+}
+
+.flex_container{
+	height:50%;
+	width:100%;
+	
+	position: absolute;
+	bottom: 20%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background-color: green;
+
+
+}
+
+
+.flex_container div{
+	width: 20%;
+	height: 80%;
+	background-color: #FA9652;
+	border-radius: 10px;
+	margin:10px;
+	position: relative;
+
+}
+
+.main_area{
+	width:100%;
+	height: 1000px;
+	position: relative;
+	background-color: blue;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+
+}
+
+.left_area{
+	width:33%;
+	height: 100%;
+	background-color: #C3F8F1;
+}
+
+.middle_area{
+	position: relative;
+	width:33%;
+	height: 100%;
+	background-color: #C5BEF8;
+	color: red;
+}
+
+.right_area{
+
+	width:33%;
+	height: 100%;
+
+	background-color: #770ee6;
+}
+
+
+.lunbotu2{
+	width: 100%;
+	height: 200px;
+	background-color:#E79704;
+	font-size: 30px;
+	position: relative;
+
+}
+
+.xiala_antd{
+	width: 100%;
+	height: 400px;
+	
+	background-image: url(../source/xiala_antd.png);
+	position: relative;
+
+}
+
+
+.show_page{
+	position: relative;
+	width:100%;
+	height:80%;
+	background-color:white;
+	background-image: url(../source/show_page.png);
+}
+
+
+.right_page_area,#normal_img_link{
+		width: 100%;
+	height: 200px;
+	background-color:#F83053;
+	font-size: 30px;
+	position: relative;
+}
+
+.normal_img_link{
+	background-color: pink;
+}
+
+.right_lunbo{
+	width: 100%;
+	height: 300px;
+	background-color:#E79704;
+	font-size: 30px;
+	position: relative;
+}

@@ -1,0 +1,12 @@
+
+.fix_left_nav{
+position: fixed;
+top: 100px;
+left: 50px;
+width: 200px;
+height: 600px;
+background-image: url(../source/erweima.png);
+z-index: 15;
+background-repeat: no-repeat;
+
+}

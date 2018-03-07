@@ -21,7 +21,14 @@ module.exports = {
         {
             test: /(\.jsx|\.js)$/,
             use: {
-                loader: "babel-loader"
+                loader: "babel-loader",
+                options: {
+                    presets: [
+                        "env", "react"
+                    ],
+                    plugins: [['import', { libraryName: 'antd', style: 'css' }]]
+                }
+
             },
             exclude: /node_modules/
         },

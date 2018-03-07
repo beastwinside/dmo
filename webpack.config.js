@@ -28,13 +28,16 @@ module.exports = {
             },
             exclude: /node_modules/
         },
+       
         {
-            test: /\.(png|svg|jpg|gif)$/,
+            test: /\.jpeg|\.jpg|\.png$/,
+            exclude: /node_modules/,
             use: [
                 {
-                    loader: 'file-loader',
+                    loader: 'url-loader',
                     options: {
-                        outputPath: "img/",
+                        limit: '1024',
+                        outputPath: "img/"
                     }
                 }
             ]

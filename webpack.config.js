@@ -5,7 +5,9 @@ module.exports = {
     entry: __dirname + "/app/main.js",//已多次提及的唯一入口文件
     output: {
         path: __dirname + "/build",
-        filename: "bundle.js"
+        filename: "bundle.js",
+
+
     },
     devtool: 'eval-source-map',
     devServer: {
@@ -26,6 +28,18 @@ module.exports = {
             },
             exclude: /node_modules/
         },
+        {
+            test: /\.(png|svg|jpg|gif)$/,
+            use: [
+                {
+                    loader: 'file-loader',
+                    options: {
+                        outputPath: "img/",
+                    }
+                }
+            ]
+        },
+        
         {
             test: /\.css$/,
             use: [

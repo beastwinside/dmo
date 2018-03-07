@@ -7,6 +7,7 @@ module.exports = {
     output: {
         path: __dirname + "/build",
         filename: "bundle.js"
+       
     },
     devtool: 'none',
     devServer: {
@@ -24,6 +25,18 @@ module.exports = {
             },
             exclude: /node_modules/
         },
+
+        {
+            test: /\.(png|svg|jpg|gif)$/,
+            use: [
+                {
+                    loader: 'file-loader',
+                    options: {
+                        outputPath: "img/",
+                    }
+                }
+            ]
+        },
         {
             test: /\.css$/,
             use: ExtractTextPlugin.extract({
@@ -38,6 +51,8 @@ module.exports = {
               }],
           })
         }
+
+      
         ]
     },
     plugins: [

@@ -14,6 +14,7 @@ import Footer from './containers/footer';
 import './styles/main.css';//使用require导入css文件
 
 render(<div >
+
 	<Greeter/>
 	<Header/>
 	<Fix_left_nav/>

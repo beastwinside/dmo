@@ -71,6 +71,8 @@ module.exports = {
             }
           ]
       },
+
+      
       {
           test: /\.css$/,
           include:/node_modules/, //antd目录

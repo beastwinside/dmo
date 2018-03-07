@@ -27,12 +27,24 @@
 .slidshow{
 	height:250px;
 	width: 100%;
-	background-color: #E79704;
-
+	
+	position: relative;
 	color:white;
 	font-size: 30px;
 	text-align: center;
 	margin-top: 10px;
+}
+
+.slidshow div{
+	width:1000px;
+	height:250px;
+	position: relative;
+}
+
+.slidshow div img{
+
+	height: 250px;
+	width: 1000px;
 }
 
 .server_center{

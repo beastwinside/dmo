@@ -1,7 +1,12 @@
 import React,{Component} from 'react'
 import styles from '../styles/maincontainer.css';//导入
-import { Button } from 'antd';
+import { Carousel } from 'antd';
 
+import lunbo1 from '../source/lunbo1.jpg';
+import lunbo2 from '../source/lunbo2.jpg';
+import lunbo3 from '../source/lunbo3.jpg';
+import lunbo4 from '../source/lunbo4.jpg';
+import lunbo5 from '../source/lunbo5.jpg';
 
 
 
@@ -13,7 +18,15 @@ class Maincontainer  extends Component{
 
 			<div className={styles.slidshow} >
 		
-	<Button type="danger">Primary</Button>
+	  <Carousel autoplay >
+ 		
+ 			
+ 					<div><img src={lunbo1}  /></div>
+					<div><img src={lunbo2}  /></div>
+                    <div><img src={lunbo3}  /></div>
+                   <div> <img src={lunbo4}  /></div>
+                  <div> <img src={lunbo5}  /></div>
+  </Carousel>
 			</div>
 
 

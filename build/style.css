@@ -157,12 +157,24 @@ background-repeat: no-repeat;
 ._1bVy80bBvS5YE2b4lF2VK2{
 	height:250px;
 	width: 100%;
-	background-color: #E79704;
-
+	
+	position: relative;
 	color:white;
 	font-size: 30px;
 	text-align: center;
 	margin-top: 10px;
+}
+
+._1bVy80bBvS5YE2b4lF2VK2 div{
+	width:1000px;
+	height:250px;
+	position: relative;
+}
+
+._1bVy80bBvS5YE2b4lF2VK2 div img{
+
+	height: 250px;
+	width: 1000px;
 }
 
 ._1MnhElofw8jmqhMtjh6TdF{

@@ -2,6 +2,9 @@ import React,{Component} from 'react'
 import styles from '../styles/maincontainer.css';//导入
 import { Carousel } from 'antd';
 import { Collapse } from 'antd';
+import { Tabs } from 'antd';
+import { Button } from 'antd';
+import { Input } from 'antd';
 
 
 
@@ -23,12 +26,20 @@ import lunbo2_1 from '../source/lunbo2_1.jpg';
 import lunbo2_2 from '../source/lunbo2_2.jpg';
 import lunbo2_3 from '../source/lunbo2_3.jpg';
 
+import lunbo_right1 from '../source/lunbo_right1.jpg';
+import lunbo_right2 from '../source/lunbo_right2.jpg';
+
+import lunbo_vertical1 from '../source/lunbo_vertical1.png';
+import lunbo_vertical2 from '../source/lunbo_vertical2.png';
+
 import zysf from '../source/zysf.jpg';
 import px_sys from '../source/4px_sys.jpg';
+import ecoss from '../source/ecoss.jpg';
 
 
-
+const { TextArea } = Input;
 const Panel = Collapse.Panel;
+const TabPane = Tabs.TabPane;
 
 function callback(key) {
 	console.log(key);
@@ -57,7 +68,8 @@ class Maincontainer  extends Component{
 			<div className={styles.main_area} >
 			<div className={styles.left_area} >
 			<div  className={styles.server_center}> 
-			<h1>服务中心</h1>
+			<br/>
+			<h2> 服务中心</h2>
 			<div  className={styles.flex_container} >
 			<div><a><img src={fuwu1}  />用户注册</a></div>
 			<div><a><img src={fuwu2}  />用户登录</a></div>
@@ -128,15 +140,52 @@ class Maincontainer  extends Component{
 			</div>	
 
 			<div  className={styles.middle_area} >
-			<h6> ""中间三栏都为分页，之前原生js实现过，下面演示，也可直接用antd控件""</h6>
-			<div  className={styles.show_page}></div>
+			
+			
 			</div>
 
 			<div  className={styles.right_area} >
-			<div  className={styles.right_page_area} > 分页控件4</div>
-			<div  className={styles.normal_img_link} >普通图片链接</div>\
-			<div className={styles.right_lunbo} >轮播控件3</div>
 
+			<div  className={styles.right_page_area} >
+			
+			<Tabs type="card"  >
+			<TabPane tab="轨迹查询" key="1">
+			<TextArea rows={2} />
+			<Button type="primary" style={{marginLeft:"10%",marginTop:"0%"}}  size="small"> 查询</Button>
+			
+			<h6>查询更多运单号码, 点击这里</h6>
+			<Carousel autoplay >
+			<div><img src={lunbo_right1} style={{width:"290px",height:"50px"}} /></div>
+			<div><img src={lunbo_right2}  style={{width:"290px",height:"50px"}}/></div>
+			</Carousel>
+			</TabPane>
+			<TabPane tab="用户登录" key="2">
+			<h3>订单宝系统</h3>
+			<br/>
+			<h3>在线订单生成系统</h3>
+			<Button type="primary" style={{marginLeft:"70%",marginTop:"0%"}}> 注册</Button>
+
+
+			</TabPane>
+
+
+			</Tabs>
+
+			</div>
+			<div  className={styles.normal_img_link} >
+			<img src={ecoss}  />
+			</div>
+
+
+			<div className={styles.right_lunbo} >
+			<Carousel  autoplay  effect="fade">
+			<div><img src={lunbo_vertical1} /></div>
+			<div><img src={lunbo_vertical2} /></div>
+			</Carousel>
+
+			</div>
+
+			
 			</div>
 
 			</div>

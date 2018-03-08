@@ -13,6 +13,10 @@
 	border-bottom-color: #dae9ec;
 	position: relative;
 }
+._33RSnxHIdRkFrqTN_3PRA li:hover{
+	cursor: pointer;
+
+}
 
 ._8urIRf1I46o53XudVjtPV{
 	width:1000px;
@@ -79,7 +83,8 @@
 
 ._1rfF0xpRbEivo8Gy8c41lC ul> li:first-child{
 	border-left-style: none;
-	color:#1CA8C1;
+	color:#000000;
+
 }
 
 ._25nJ-kQcL-MW_JPi5rz4hC{
@@ -117,20 +122,43 @@
 	color:#0F6C9B;
 	
 }
+
+.An7uocAOjQ7HJG6A7AymB ul> li:first-child{
+	border-left-style: none;
+	font-weight: bolder;
+}
+
 ._2WkKsBG_QVUOcR3gIvPhj-{
 position: fixed;
 top: 100px;
-left: 50px;
+left: 20px;
 width: 200px;
+height: 400px;
+background-image: url(img/f46548ce2c9af1dba1fee80cc9847107.png);
+z-index: 15;
+background-repeat: no-repeat;
+background-size:100% 100%;
+
+}
+
+
+._2WkKsBG_QVUOcR3gIvPhj-:hover{
+	cursor: pointer;
+}
+._3eAMuVfOWb3n5IFmYhJ2dS{
+position: fixed;
+top: 100px;
+right: 0px;
+width: 120px;
 height: 600px;
-background-image: url(img/5e13e0629f1bea698166ee2a8f7d3c06.png);
+background-image: url(img/9f64233703326dd25cb84547a0e06b09.gif);
 z-index: 15;
 background-repeat: no-repeat;
 
 }
 
 
-._2WkKsBG_QVUOcR3gIvPhj-:hover{
+._3eAMuVfOWb3n5IFmYhJ2dS:hover{
 	cursor: pointer;
 }._2vwomQwUZDmFqyEdnSGvqJ{
 	width:100%;
@@ -190,13 +218,18 @@ background-repeat: no-repeat;
 	position: relative;
 
 }
+._1MnhElofw8jmqhMtjh6TdF h2{
+	text-indent: 10px;
+}
+
+._1MnhElofw8jmqhMtjh6TdF h2:hover{
+	cursor: pointer;
+}
 
 .KEukIYagqNfU5UXp_gmOt{
 	height:50%;
 	width:100%;
-	
 	position: relative;
-	
 	display: flex;
 	justify-content:center;
 	align-items: center;
@@ -235,22 +268,24 @@ left: 10px;
 	width:30%;
 	height: 100%;
 
+
 }
 
 ._3txZUl2xGucGo6IDVxs7no{
 	position: relative;
 	width:40%;
 	height: 100%;
+	background-color: #FBFBDD;
 
 	color: red;
 }
 
 ._1dxBFiYB9JRZW3nP7UWvF-{
 
+
 	width:30%;
 	height: 100%;
 
-	background-color: #770ee6;
 }
 
 
@@ -280,47 +315,76 @@ height: 100%;
 
 }
 
-
-.WbLIC-MQS3IzyAtwUSvOZ{
-	position: relative;
-	width:100%;
-	height:80%;
-	background-color:white;
-	background-image: url(img/e7d1f19c7cc773a6784e7cbabd731bf1.png);
+._3O7m0Y--OZ7z4MwCbotJPz a{
+	color: #B2B2B2;
 }
+
+._3O7m0Y--OZ7z4MwCbotJPz a:hover{
+	color: #64CCD4;
+}
+
+
 
 
 ._1y4_8-4XEnj-ycubuh2oaK,#kZCYHjq8Ckmfc0NHlqIYH{
 		width: 100%;
 	height: 200px;
-	background-color:#F83053;
 	font-size: 30px;
 	position: relative;
 }
+._1y4_8-4XEnj-ycubuh2oaK h3,h6{
+	text-align: center;
+}
+
+._1y4_8-4XEnj-ycubuh2oaK h3,h6:hover{
+	cursor: pointer;
+}
+
+
 
 .kZCYHjq8Ckmfc0NHlqIYH{
-	background-color: pink;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.kZCYHjq8Ckmfc0NHlqIYH img{
+	width: 95%;
+	margin:auto;
+}
+
+
+.kZCYHjq8Ckmfc0NHlqIYH img:hover{
+	cursor: pointer;
 }
 
 ._1-7NfTyeLvdAFttYUvWatv{
 	width: 100%;
 	height: 300px;
-	background-color:#E79704;
+
 	font-size: 30px;
 	position: relative;
+}
+
+._1-7NfTyeLvdAFttYUvWatv img{
+
+	height: 300px;
+	width: 300px;
 }._3FwcIL9zNGCinAwAektr4{
 	position: relative;
 	width:100%;
 	height:300px;
-	background:-webkit-gradient(linear, 0 0, 0 bottom, from(#e7ebee), to(#29A8CE));  
+	background:	-webkit-linear-gradient(bottom,#4FC4F0,#E7EAEA,#FFFFFF); 
 }
 
 
 footer{
 
 	width: 1000px;
-	height: 80%;
-	bottom: 10%;
+	height: 90%;
+	bottom: 0%;
 	left: 0;
 	right: 0;
 	margin:auto;
@@ -329,8 +393,8 @@ footer{
 	position: relative;
 }
 
-.nHaxf0alMqyY28NYilOQd{
-
+._1z-w_CznGT5TCBztX40f_r{
+    padding-left: 10px;
 	background-color:white;
 	border-style: solid;
 	border-width: 1px;
@@ -346,16 +410,55 @@ footer{
 	justify-content: space-between;
 	align-items: center;
 
-
 }
 
 footer img:hover{
-
  cursor: pointer;
+}
 
 
+.P2ogMf9aP4tZVyFihG-MG{
+   
+	
 
-}/*初始化  reset*/  
+	width: 99%;
+	height: 70%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	
+
+}
+
+.P2ogMf9aP4tZVyFihG-MG div{
+height: 90%;
+width: 12%;
+
+position: relative;
+display: inline-block;
+margin: 10px;
+overflow: hidden;
+
+}
+
+.P2ogMf9aP4tZVyFihG-MG div li{
+	font-size: 5px;
+
+	list-style: none;
+	margin: 5%;
+}
+
+.P2ogMf9aP4tZVyFihG-MG div li:hover{
+	cursor: pointer;
+}
+
+.P2ogMf9aP4tZVyFihG-MG div>li:first-child{
+	font-size: 14px;
+	font-weight: bolder;
+	font-color:#0986BF;
+}
+
+/*初始化  reset*/  
 body,button,dd,dl,dt,h1,h2,h3,h4,h5,h6,input,li,ol,p,td,ul{margin:0;padding:0}  
 body,button,input{font:12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif}  
 button,input{font-size:100%}  

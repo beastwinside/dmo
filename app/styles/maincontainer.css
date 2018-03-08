@@ -15,7 +15,7 @@
 .container{
 	width:1000px;
 	height:1300px;
-	background-color:#FFE2EF;
+	
 	position: relative;
 	left:0;
 	right:0;
@@ -30,8 +30,6 @@
 	
 	position: relative;
 	color:white;
-	font-size: 30px;
-	text-align: center;
 	margin-top: 10px;
 }
 
@@ -50,7 +48,6 @@
 .server_center{
 	height:200px;
 	width: 100%;
-	background-color: #4CD405;
 	position: relative;
 
 }
@@ -59,13 +56,11 @@
 	height:50%;
 	width:100%;
 	
-	position: absolute;
-	bottom: 20%;
+	position: relative;
+	
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	background-color: green;
-
 
 }
 
@@ -73,10 +68,16 @@
 .flex_container div{
 	width: 20%;
 	height: 80%;
-	background-color: #FA9652;
 	border-radius: 10px;
 	margin:10px;
 	position: relative;
+
+}
+
+
+.zysf{
+position: relative;
+left: 10px;
 
 }
 
@@ -84,7 +85,7 @@
 	width:100%;
 	height: 1000px;
 	position: relative;
-	background-color: blue;
+
 	display: flex;
 	justify-content:center;
 	align-items: center;
@@ -92,22 +93,22 @@
 }
 
 .left_area{
-	width:33%;
+	width:30%;
 	height: 100%;
-	background-color: #C3F8F1;
+
 }
 
 .middle_area{
 	position: relative;
-	width:33%;
+	width:40%;
 	height: 100%;
-	background-color: #C5BEF8;
+
 	color: red;
 }
 
 .right_area{
 
-	width:33%;
+	width:30%;
 	height: 100%;
 
 	background-color: #770ee6;
@@ -116,18 +117,26 @@
 
 .lunbotu2{
 	width: 100%;
-	height: 200px;
-	background-color:#E79704;
+	height: 120px;
+
 	font-size: 30px;
 	position: relative;
 
+}
+.lunbotu2 div{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.lunbotu2 div img{
+height: 100%;
 }
 
 .xiala_antd{
 	width: 100%;
 	height: 400px;
-	
-	background-image: url(../source/xiala_antd.png);
+
 	position: relative;
 
 }

@@ -145,7 +145,7 @@ background-repeat: no-repeat;
 ._2jk9KhX84DiSBIxRXJco5N{
 	width:1000px;
 	height:1300px;
-	background-color:#FFE2EF;
+	
 	position: relative;
 	left:0;
 	right:0;
@@ -160,8 +160,6 @@ background-repeat: no-repeat;
 	
 	position: relative;
 	color:white;
-	font-size: 30px;
-	text-align: center;
 	margin-top: 10px;
 }
 
@@ -180,7 +178,6 @@ background-repeat: no-repeat;
 ._1MnhElofw8jmqhMtjh6TdF{
 	height:200px;
 	width: 100%;
-	background-color: #4CD405;
 	position: relative;
 
 }
@@ -189,13 +186,11 @@ background-repeat: no-repeat;
 	height:50%;
 	width:100%;
 	
-	position: absolute;
-	bottom: 20%;
+	position: relative;
+	
 	display: flex;
 	justify-content:center;
 	align-items: center;
-	background-color: green;
-
 
 }
 
@@ -203,10 +198,16 @@ background-repeat: no-repeat;
 .KEukIYagqNfU5UXp_gmOt div{
 	width: 20%;
 	height: 80%;
-	background-color: #FA9652;
 	border-radius: 10px;
 	margin:10px;
 	position: relative;
+
+}
+
+
+._3oEiTEOYWBvc9QrmCKKtn8{
+position: relative;
+left: 10px;
 
 }
 
@@ -214,7 +215,7 @@ background-repeat: no-repeat;
 	width:100%;
 	height: 1000px;
 	position: relative;
-	background-color: blue;
+
 	display: flex;
 	justify-content:center;
 	align-items: center;
@@ -222,22 +223,22 @@ background-repeat: no-repeat;
 }
 
 ._30nt7QzEWbofz6_fEJyH_x{
-	width:33%;
+	width:30%;
 	height: 100%;
-	background-color: #C3F8F1;
+
 }
 
 ._3txZUl2xGucGo6IDVxs7no{
 	position: relative;
-	width:33%;
+	width:40%;
 	height: 100%;
-	background-color: #C5BEF8;
+
 	color: red;
 }
 
 ._1dxBFiYB9JRZW3nP7UWvF-{
 
-	width:33%;
+	width:30%;
 	height: 100%;
 
 	background-color: #770ee6;
@@ -246,18 +247,26 @@ background-repeat: no-repeat;
 
 ._3P1u9j9QQ7O9lBtLX8HBBH{
 	width: 100%;
-	height: 200px;
-	background-color:#E79704;
+	height: 120px;
+
 	font-size: 30px;
 	position: relative;
 
+}
+._3P1u9j9QQ7O9lBtLX8HBBH div{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+._3P1u9j9QQ7O9lBtLX8HBBH div img{
+height: 100%;
 }
 
 ._3O7m0Y--OZ7z4MwCbotJPz{
 	width: 100%;
 	height: 400px;
-	
-	background-image: url(img/e9d60cd6d97f1b2b0fb8cb231b704f4e.png);
+
 	position: relative;
 
 }

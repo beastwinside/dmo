@@ -45,6 +45,11 @@
 	width: 1000px;
 }
 
+.slidshow div img:hover{
+	cursor: pointer;
+}
+
+
 .server_center{
 	height:200px;
 	width: 100%;

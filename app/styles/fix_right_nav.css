@@ -1,0 +1,17 @@
+
+.fix_right_nav{
+position: fixed;
+top: 100px;
+right: 0px;
+width: 120px;
+height: 600px;
+background-image: url(../source/zxzx.gif);
+z-index: 15;
+background-repeat: no-repeat;
+
+}
+
+
+.fix_right_nav:hover{
+	cursor: pointer;
+}

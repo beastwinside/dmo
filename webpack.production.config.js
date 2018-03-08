@@ -35,7 +35,7 @@ module.exports = {
         },
 
         {
-            test: /\.jpeg|\.jpg|\.png$/,
+            test: /\.jpeg|\.gif|\.jpg|\.png$/,
             exclude: /node_modules/,
             use: [
                 {

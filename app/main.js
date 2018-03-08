@@ -4,6 +4,7 @@ import {render} from 'react-dom';
 import Greeter from './containers/Greeter';
 import Header from './containers/Header';//网页头部组件
 import Fix_left_nav from './containers/Fix_left_nav';//网页左边导航栏组件
+import Fix_right_nav from './containers/Fix_right_nav';//网页右边悬浮栏组件
 import Maincontainer from './containers/maincontainer';//网页中间
 import Footer from './containers/footer';
 
@@ -18,6 +19,7 @@ render(<div >
 	<Greeter/>
 	<Header/>
 	<Fix_left_nav/>
+	<Fix_right_nav/>
 	<Maincontainer/>
 	<Footer/>
 	</div>

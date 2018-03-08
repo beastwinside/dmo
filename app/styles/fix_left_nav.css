@@ -2,11 +2,17 @@
 .fix_left_nav{
 position: fixed;
 top: 100px;
-left: 50px;
+left: 20px;
 width: 200px;
-height: 600px;
+height: 400px;
 background-image: url(../source/erweima.png);
 z-index: 15;
 background-repeat: no-repeat;
+background-size:100% 100%;
 
+}
+
+
+.fix_left_nav:hover{
+	cursor: pointer;
 }

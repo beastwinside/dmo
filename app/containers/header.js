@@ -14,9 +14,9 @@ class Header extends Component{
 			<div className={styles.header_top_nav}>
 				<ul>
 					<li><a>集团官网</a></li>
-					<li><a>手机版</a></li>
-					<li><a>网站指南</a></li>
-					<li><a>收藏本站</a></li>
+					<li>手机版</li>
+					<li>网站指南</li>
+					<li>收藏本站</li>
 
 
 				</ul>
@@ -25,9 +25,9 @@ class Header extends Component{
 
 			<div className={styles.header_middle_nav}>
 				<ul>
-					<li><a>加关注 </a></li>
-					<li><a>繁體中文</a></li>
-					<li><a>English</a></li>
+					<li>加关注 </li>
+					<li>繁體中文</li>
+					<li>English</li>
 
 
 				</ul>
@@ -36,7 +36,7 @@ class Header extends Component{
 
 			<div className={styles.header_down_nav}>
 				<ul>
-					<li><a>首页</a></li>
+					<li>首页</li>
 					<li><a>关于我们</a></li>
 					<li><a>产品与服务</a></li>
 					<li><a>客服中心</a></li>

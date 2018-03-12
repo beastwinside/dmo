@@ -100,16 +100,6 @@ class Maincontainer  extends Component{
 			<li><a>▶ 结算汇率查询</a></li>
 			<li><a>▶ 收款方式说明</a></li>
 			<li><a>▶ 扣件原因分析</a></li>
-
-
-
-
-
-
-
-
-
-
 			</ul>
 			</Panel>
 			<Panel header="02. 下载专区" key="2" showArrow={false}>
@@ -140,6 +130,96 @@ class Maincontainer  extends Component{
 			</div>	
 
 			<div  className={styles.middle_area} >
+			<div> 
+			<Tabs type="card"  tabBarGutter="0px">
+			<TabPane tab="重要公告" key="1">
+				<ul>
+			<li><a>▶ 燃fsafffasf油附加费  </a></li>
+			<li><a>▶ 运sada单背书说明</a></li>
+			<li><a>▶ fsfsaffasg操作交接说明</a></li>
+			<li><a>▶ gcxvs结d算汇率查询</a></li>
+			<li><a>▶ sdgdsg收款sdg方式说明</a></li>
+			<li><a>▶ hdsfgds扣件sdfsdf原因分析</a></li>
+			</ul>
+			</TabPane>
+			<TabPane tab="公司新闻" key="2">
+				<ul>
+			<li><a>▶ 的sadafa费  </a></li>
+			<li><a>▶ dsfgsdgdsgds明</a></li>
+			<li><a>▶ sdhhshsh明</a></li>
+			<li><a>▶ ssdhdsh结算汇率查询</a></li>
+			<li><a>▶ dshshdsh式说明</a></li>
+			<li><a>▶ 扣sdhhsh分析</a></li>
+			</ul>
+			</TabPane>
+			<TabPane tab="行业新闻" key="3">
+			<ul>
+			<li><a>▶ ewewrwe  </a></li>
+			<li><a>▶ 235essdf说明</a></li>
+			<li><a>▶ sdgsdg明</a></li>
+			<li><a>▶ sdgsgsdgsd率查询</a></li>
+			<li><a>▶ sdgsdg收款方式说明</a></li>
+			<li><a>▶ sdgsg因分析</a></li>
+			</ul>
+			</TabPane>
+			</Tabs>
+
+
+			</div>
+			<div> 
+			<Tabs type="card"  tabBarGutter="0px">
+			<TabPane tab="市场活动" key="1">
+				<ul>
+			<li><a>▶ 燃油附加费  </a></li>
+			<li><a>▶ 运单背书说明</a></li>
+			<li><a>▶ 操作交接说明</a></li>
+			<li><a>▶ 结算汇率查询</a></li>
+			<li><a>▶ 收款方式说明</a></li>
+			<li><a>▶ 扣件原因分析</a></li>
+			</ul>
+			</TabPane>
+			<TabPane tab="成功安利" key="2">
+			<ul>
+			<li><a>▶ 燃油附加费  </a></li>
+			<li><a>▶ 运单背书说明</a></li>
+			<li><a>▶ 操作交接说明</a></li>
+			<li><a>▶ 结算汇率查询</a></li>
+			<li><a>▶ 收款方式说明</a></li>
+			<li><a>▶ 扣件原因分析</a></li>
+			</ul>
+			</TabPane>
+			<TabPane tab="行业新闻" key="3">
+				<ul>
+			<li><a>▶ 燃油附加费  </a></li>
+			<li><a>▶ 运单背书说明</a></li>
+			<li><a>▶ 操作交接说明</a></li>
+			<li><a>▶ 结算汇率查询</a></li>
+			<li><a>▶ 收款方式说明</a></li>
+			<li><a>▶ 扣件原因分析</a></li>
+			</ul>
+			</TabPane>
+			</Tabs>
+
+			</div>
+			<div> 
+			<Tabs type="card"  >
+			<TabPane tab="常见问题" key="1">
+			<ul>
+			<li><a>▶ 燃油附加费  </a></li>
+			<li><a>▶ 运单背书说明</a></li>
+			<li><a>▶ 操作交接说明</a></li>
+			<li><a>▶ 结算汇率查询</a></li>
+			<li><a>▶ 收款方式说明</a></li>
+			<li><a>▶ 扣件原因分析</a></li>
+			<li><a>▶ 操作交接说明</a></li>
+			<li><a>▶ 结算汇率查询</a></li>
+			<li><a>▶ 收款方式说明</a></li>
+			</ul>
+			</TabPane>
+		
+			</Tabs>
+
+			</div>
 			
 			
 			</div>
